@@ -8,9 +8,15 @@ namespace PracticeProgram
 {
     public  class Program
     {
-        static void Main(string[] args)
+        public void Main(string[] args)
         {
             ObjectClass.Student();
+
+            Animal animal = new Animal();
+            animal.eat();
+            animal.bark();
+
+            
         }
     }
 }
